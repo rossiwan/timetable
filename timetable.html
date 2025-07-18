@@ -6,78 +6,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ตารางเรียน</title>
   <script src="https://cdn.tailwindcss.com"></script> <!-- โหลด Tailwind จาก CDN -->
-   
-</head>
- <!-- แทรกไว้ด้านบน -->
-<!-- แถบ header ด้านบน -->
-  <header class="bg-gradient-to-r from-teal-500 to-teal-700 px-4 py-4">
-    <!-- ส่วนบน: โลโก้ + ชื่อมหาวิทยาลัย -->
-    <div class="flex-col md:flex-row md:items-center md:justify-between">
-      <!-- โลโก้และชื่อ -->
-      <div class="flex items-center justify-center md:justify-start mb-4 md:mb-0">
-        <img src="img.css\MJU_LOGO.svg.png" alt="logomju" class="w-[70px] h-[70px] mr-4">
-          <h1 class="text-white text-xl md:text-2xl tracking-widest font-medium">มหาวิทยาลัยแม่โจ้</h1>
-          <h2 class="text-white text-lg md:text-xl tracking-widest font-medium">MAEJO UNIVERSITY</h2>
-        </div>
-      </div>
-    </div>
 
-    <!-- เมนู: แนวนอนบน desktop, แนวตั้งบนมือถือ -->
-    <nav>
-      <ul
-        class="flex flex-col md:flex-row text-white text-base md:text-xl space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-6 text-center md:text-left">
-        <li>
-          <a href="/TailwindCSS/index.html" class="hover:text-yellow-300 transition-colors duration-200">หน้าแรก</a>
-        </li>
-        <li>
-          <a href="/TailwindCSS/calendar.html"
-            class="hover:text-yellow-300 transition-colors duration-200">ปฏิทินการศึกษา</a>
-        </li>
-        <li>
-          <a href="/TailwindCSS/registration.html"
-            class="hover:text-yellow-300 transition-colors duration-200">ตารางเรียน</a>
-        </li>
-        <li>
-          <a href="/TailwindCSS/contact.html"
-            class="hover:text-yellow-300 transition-colors duration-200">ตารางการใช้ห้อง</a>
-        </li>
-        <li>
-          <a href="/TailwindCSS/contact.html"
-            class="hover:text-yellow-300 transition-colors duration-200">ออกจากระบบ</a>
-        </li>
-      </ul>
-    </nav>
-  </header>              
+</head>
+<!-- แทรกไว้ด้านบน -->
+<!-- แถบ header ด้านบน -->
+<header class="bg-gradient-to-r from-teal-500 to-teal-700 px-4 py-4">
+  <!-- ส่วนบน: โลโก้ + ชื่อมหาวิทยาลัย -->
+  <div class="flex-col md:flex-row md:items-center md:justify-between">
+    <!-- โลโก้และชื่อ -->
+    <div class="flex items-center justify-center md:justify-start mb-4 md:mb-0">
+      <img src="img.css\MJU_LOGO.svg.png" alt="logomju" class="w-[70px] h-[70px] mr-4">
+      <h1 class="text-white text-xl md:text-2xl tracking-widest font-medium">มหาวิทยาลัยแม่โจ้</h1>
+      <h2 class="text-white text-lg md:text-xl tracking-widest font-medium">MAEJO UNIVERSITY</h2>
+    </div>
+  </div>
+  </div>
+
+  <!-- เมนู: แนวนอนบน desktop, แนวตั้งบนมือถือ -->
+  <nav>
+    <ul
+      class="flex flex-col md:flex-row text-white text-base md:text-xl space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-6 text-center md:text-left">
+      <li>
+        <a href="/TailwindCSS/index.html" class="hover:text-yellow-300 transition-colors duration-200">หน้าแรก</a>
+      </li>
+      <li>
+        <a href="/TailwindCSS/calendar.html"
+          class="hover:text-yellow-300 transition-colors duration-200">ปฏิทินการศึกษา</a>
+      </li>
+      <li>
+        <a href="/TailwindCSS/registration.html"
+          class="hover:text-yellow-300 transition-colors duration-200">ตารางเรียน</a>
+      </li>
+      <li>
+        <a href="/TailwindCSS/contact.html"
+          class="hover:text-yellow-300 transition-colors duration-200">ตารางการใช้ห้อง</a>
+      </li>
+      <li>
+        <a href="/TailwindCSS/contact.html" class="hover:text-yellow-300 transition-colors duration-200">ออกจากระบบ</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 <body class="p-6">
   <!-- ข้อมูลนักศึกษา -->
-<div class="max-w-screen-lg mx-auto bg-white p-4 border border-gray-300 rounded-md shadow-sm mb-6">
-  <h2 class="text-lg font-semibold mb-2">ตารางเรียน/สอบของรายวิชาที่ลงทะเบียนไว้แล้ว</h2>
-  <p><strong>รหัสนักศึกษา:</strong> 6704101409</p>
-  <p><strong>ชื่อ:</strong> นางสาวรสสิวัลย์ ประสิทธิกุลวัชร์</p>
-  <p><strong>สถานภาพ:</strong> กำลังศึกษา</p>
-  <p><strong>คณะ:</strong> วิทยาศาสตร์</p>
-  <p><strong>หลักสูตร:</strong> วิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</p>
-  <p><strong>อาจารย์ที่ปรึกษา:</strong> อาจารย์ ดร.พยุงศักดิ์ เกษมสำราญ</p>
-</div>
+  <div class="max-w-screen-lg mx-auto bg-white p-4 border border-gray-300 rounded-md shadow-sm mb-6">
+    <h2 class="text-lg font-semibold mb-2">ตารางเรียน/สอบของรายวิชาที่ลงทะเบียนไว้แล้ว</h2>
+    <p><strong>รหัสนักศึกษา:</strong> 6704101409</p>
+    <p><strong>ชื่อ:</strong> นางสาวรสสิวัลย์ ประสิทธิกุลวัชร์</p>
+    <p><strong>สถานภาพ:</strong> กำลังศึกษา</p>
+    <p><strong>คณะ:</strong> วิทยาศาสตร์</p>
+    <p><strong>หลักสูตร:</strong> วิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</p>
+    <p><strong>อาจารย์ที่ปรึกษา:</strong> อาจารย์ ดร.พยุงศักดิ์ เกษมสำราญ</p>
+  </div>
 
   </style>
   <div class="overflow-x-auto max-w-screen-lg mx-auto">
     <h2 class="text-2xl font-bold mb-4 text-center">ตารางเรียน</h2>
-    <table class="table-auto w-full border text-xs">
-
-      <table class="table-auto w-full border bg-teal-400">
+    <table class="table-auto w-full text-sm border-2 border-gray-400 bg-teal-300">
         <thead>
           <tr>
-            <th colspan="1" class="px-4 py-2 border">DAY/Time</th>
-            <th colspan="2" class="px-4 py-2 border">8:00 - 9:00</th>
-            <th colspan="2" class="px-4 py-2 border">9:00 - 10:00</th>
-            <th colspan="2" class="px-4 py-2 border">10:00 - 11:00</th>
-            <th colspan="2" class="px-4 py-2 border">11:00 - 12:00</th>
-            <th colspan="2" class="px-4 py-2 border">12:00 - 13:00</th>
-            <th colspan="2" class="px-4 py-2 border">13:00 - 14:00</th>
-            <th colspan="2" class="px-4 py-2 border">14:00 - 15:00</th>
-            <th colspan="2" class="px-4 py-2 border">15:00 - 16:00</th>
-            <th colspan="2" class="px-4 py-2 border">16:00 - 17:00</th>
+            <th colspan="1" class="px-4 py-2 border-2 border-gray-400">DAY/Time</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">8:00 - 9:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">9:00 - 10:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">10:00 - 11:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">11:00 - 12:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">12:00 - 13:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">13:00 - 14:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">14:00 - 15:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">15:00 - 16:00</th>
+            <th colspan="2" class="px-4 py-2 border-2 border-gray-400">16:00 - 17:00</th>
           </tr>
           <tr>
             <th class="px-1 py-0 border" style="width: 5%;"></th>
@@ -100,70 +98,70 @@
             <th class="px-1 py-0 border" style="width: 5%;"></th>
           </tr>
         </thead>
-        <tbody class="text-center">
-<!--วันจัน-->
-          <tr class="border bg-white">
-            <td class="border px-4 py-2">Monday</td>
-            <td class="border  px-1 py-1" colspan="2"></td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+        <tbody class="text-center border-2 border-gray-400">
+          <!--วันจัน-->
+          <tr class="border-2 border-gray-400 bg-white">
+            <td class="border-2 border-gray-400 px-4 py-2">Monday</td>
+            <td class="border-2 border-gray-400  px-1 py-1" colspan="2"></td>
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301231<br>(3) 1, Lab คอม3-4<br>105
             </td>
-            <td class="border px-1 py-1" colspan="2"></td>
-            <td colspan="4" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-1 py-1" colspan="2"></td>
+            <td colspan="4" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301222<br>(3) 1, Lab คอม3-4<br>105
             </td>
-            <td colspan="4" class="border bg-blue-200 px-1 py-2">
+            <td colspan="4" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10700313<br>(3) 1, ศร306<br>125
             </td>
           </tr>
 
 
-          
-<!--วันอังคาร-->
+
+          <!--วันอังคาร-->
           <tr class="bg-white">
-            <td class="border px-4 py-2">Tuesday</td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-4 py-2">Tuesday</td>
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301231<br>(3) 1, ศร306<br>125
             </td>
-            <td class="border px-1 py-2" colspan="3"></td>
-            <td colspan="5" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-1 py-2" colspan="3"></td>
+            <td colspan="5" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301231<br>(3) 1, ศร306<br>125
             </td>
-            <td colspan="3" class="border bg-blue-200 px-1 py-2">
+            <td colspan="3" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301211<br>(3) 1,3203<br>141
             </td>
-            <td class="border px-4 py-2" colspan="1"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="1"></td>
 
 
 
- <!--วันพุธ-->
+            <!--วันพุธ-->
           <tr class="bg-white">
-            <td class="border px-4 py-2">Wednesday</td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-4 py-2">Wednesday</td>
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301225<br>(3) 1, 3203<br>141
             </td>
-            <td class="border px-4 py-2" colspan="3"></td>
-            <td class="border px-4 py-2" colspan="3"></td>
-            <td class="border px-4 py-2" colspan="3"></td>
-            <td class="border px-4 py-2" colspan="3"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="3"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="3"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="3"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="3"></td>
 
 
 
           </tr>
           <!--วันพฤหัสบดี-->
           <tr class="bg-white">
-            <td class="border px-4 py-2">Thursday</td>
-            <td class="border px-4 py-2"></td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-4 py-2">Thursday</td>
+            <td class="border-2 border-gray-400 px-4 py-2"></td>
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301222<br>(3) 1, Lab คอม3-4<br>125
 
             </td>
 
-            <td class="border px-4 py-2"></td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td class="border-2 border-gray-400 px-4 py-2"></td>
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301223<br>(3) 1, Lab คอม3-4<br>105
             </td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10700313<br>(3) 1, ศร306<br>125
 
             </td>
@@ -173,18 +171,18 @@
 
           <!--วันศุกร์-->
           <tr class="bg-white">
-            <td class="border px-4 py-2">Friday</td>
-            <th class="border px-4 py-2"></th>
+            <td class="border-2 border-gray-400 px-4 py-2">Friday</td>
+            <th class="border-2 border-gray-400 px-4 py-2"></th>
 
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301211<br>(3) 1, 3203<br>141
             </td>
             <td colspan="2"> </td>
-            <td colspan="6" class="border bg-blue-200 px-1 py-2">
+            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301223<br>1, Lab คอม3-4<br>105
 
             </td>
-            <td class="border px-4 py-2" colspan="4"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="4"></td>
 
 
 
@@ -199,26 +197,28 @@
     (จำนวนหน่วยกิต) กลุ่ม, ห้องเรียนและอาคาร ตามลำดับ
   </h1>
   <div class="max-w-4xl mx-auto mt-10">
-    <h3 class="text-xl font-bold mb-4 text-center">ตารางสอบ</h3>
-    <table class="w-full border border-gray-500 text-sm">
+    <table class="table-auto w-full my-table border-2 border-gray-400 bg-teal-400">
       <thead class="bg-teal-300 text-black">
         <tr>
-          <th class="border border-gray-400 px-2 py-1">รหัสวิชา</th>
-          <th class="border border-gray-400 px-2 py-1">ชื่อรายวิชา</th>
-          <th class="border border-gray-400 px-2 py-1">กลุ่ม</th>
-          <th class="border border-gray-400 px-2 py-1">สอบกลางภาค</th>
-          <th class="border border-gray-400 px-2 py-1">สอบปลายภาค</th>
+        <th colspan="5" class="text-xl  px-2 py-3 text-center">ตารางสอบ</th>
+      </tr>
+        <tr>
+          <th class="border-2 border-gray-400 px-2 py-1">รหัสวิชา</th>
+          <th class="border-2 border-gray-400 py-1">ชื่อรายวิชา</th>
+          <th class="border-2 border-gray-400 py-1">กลุ่ม</th>
+          <th class="border-2 border-gray-400 px-2 py-1">สอบกลางภาค</th>
+          <th class="border-2 border-gray-400 px-2 py-1">สอบปลายภาค</th>
         </tr>
       </thead>
       <tbody class="text-center">
         <tr class="bg-white">
-          <td class="border px-2 py-1">10301211</td>
+          <td class="borderpx-2 py-1">10301211</td>
           <td class="border px-2 py-1 text-left">
             คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์<br>
             <span class="text-gray-500 text-xs">Mathematics for Computer Science</span>
           </td>
           <td class="border px-2 py-1">1</td>
-          <td class="border px-2 py-1">
+          <td class="borderpx-2 py-1">
             (C) 22 ส.ค. 2568<br>เวลา 08:00-11:00
           </td>
           <td class="border px-2 py-1 text-gray-400">-</td>
@@ -281,7 +281,7 @@
       </tbody>
     </table>
     <h3 class="text-sm text-red-600 mt-4">
-           หมายเหตุ: <span  class="font-semibold">C</span> = Lecture,
+      หมายเหตุ: <span class="font-semibold">C</span> = Lecture,
       <span class="font-semibold">L</span> = Lab,
       <span class="font-semibold">R</span> = ประชุม,
       <span class="font-semibold">S</span> = Self Study,
