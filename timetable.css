@@ -1,0 +1,55 @@
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>แถบหัวเว็บไซต์</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .header {
+      background-color: #007A5E; /* สีเขียวของแม่โจ้ */
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">มหาวิทยาลัยแม่โจ้</div>
+    <div class="menu">
+      <a href="#">หน้าแรก</a>
+      <a href="#">ปฏิทินการศึกษา</a>
+      <a href="#">การจัดการเรียน</a>
+      <a href="#">การใช้งานห้อง</a>
+      <a href="#">ออกจากระบบ</a>
+    </div>
+  </div>
+
+</body>
+</html>
