@@ -1,9 +1,0 @@
-<style>
-  table.my-table th,
-  table.my-table td {
-    border: 1px solid black;
-  }
-  table.my-table {
-    border-collapse: collapse; /* ให้เส้นขอบติดกัน */
-  }
-</style>

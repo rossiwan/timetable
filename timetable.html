@@ -59,8 +59,8 @@
     <p><strong>อาจารย์ที่ปรึกษา:</strong> -</p>
   </div>
 
-  </style>
-  <div class="overflow-x-auto max-w-screen-lg mx-auto">
+  <div class="overflow-x-auto max-w-screen-lg mx-auto hidden md:block">
+
     <h2 class="text-2xl  mb-4 text-center">ตารางเรียน</h2>
     <table class="w-full table-auto border-collapse border border-gray-400 text-[10px] sm:text-sm bg-teal-300">
         <thead>
@@ -95,6 +95,7 @@
             <th class="px-1 py-0 border" style="width: 5%;"></th>
             <th class="px-1 py-0 border" style="width: 5%;"></th>
             <th class="px-1 py-0 border" style="width: 5%;"></th>
+             <th class="px-1 py-0 border" style="width: 5%;"></th>
           </tr>
         </thead>
         <tbody class="text-center border-2 border-gray-400">
@@ -119,13 +120,14 @@
           <!--วันอังคาร-->
           <tr class="bg-white">
             <td class="border-2 border-gray-400 px-4 py-2">Tuesday</td>
-            <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
-              10301231<br>(3) 1, ศร306<br>125
-            </td>
-            <td class="border-2 border-gray-400 px-1 py-2" colspan="4"></td>
             <td colspan="4" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
-              10301231<br>(3) 1, ศร306<br>125
+              10301231<br>(3) 1, ศร306<br>105
             </td>
+            <td class="border-2 border-gray-400 px-1 py-2" colspan="5"></td>
+            <td colspan="3" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
+              10301225<br>(3) 1, Lab คอม3-4<<br>105
+            </td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="2"></td>
             <td colspan="3" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301211<br>(3) 1,3203<br>141
             </td>
@@ -136,6 +138,7 @@
             <!--วันพุธ-->
           <tr class="bg-white">
             <td class="border-2 border-gray-400 px-4 py-2">Wednesday</td>
+            <td colspan="2"class="border-2 border-gray-400 px-4 py-2"></td>
             <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301225<br>(3) 1, 3203<br>141
             </td>
@@ -150,13 +153,13 @@
           <!--วันพฤหัสบดี-->
           <tr class="bg-white">
             <td class="border-2 border-gray-400 px-4 py-2">Thursday</td>
-            <td class="border-2 border-gray-400 px-4 py-2"></td>
+            <td colspan="2" class="border-2 border-gray-400 px-4 py-2"></td>
             <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301222<br>(3) 1, Lab คอม3-4<br>125
 
             </td>
 
-            <td class="border-2 border-gray-400 px-4 py-2" colspan="3"></td>
+            <td class="border-2 border-gray-400 px-4 py-2" colspan="2"></td>
             <td colspan="4" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301223<br>(3) 1, Lab คอม3-4<br>105
             </td>
@@ -176,7 +179,7 @@
             <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301211<br>(3) 1, 3203<br>141
             </td>
-            <td colspan="2"> </td>
+            <td colspan="3"> </td>
             <td colspan="6" class="border-2 border-gray-400 bg-blue-200 px-1 py-2">
               10301223<br>1, Lab คอม3-4<br>105
 
@@ -189,8 +192,142 @@
           </tr>
         </tbody>
       </table>
+      
   </div>
+<div class="block md:hidden max-w-screen-lg mx-auto space-y-4">
+  <h2 class="text-2xl mb-4 text-center font-bold text-teal-700">ตารางเรียน</h2>
 
+  <details class="border border-teal-500 rounded-xl shadow p-4 bg-white open:ring-2 open:ring-teal-300 transition-all">
+    <summary class="cursor-pointer font-bold text-lg text-green-600">
+      วันจันทร์ (Monday)
+    </summary>
+    <div class="mt-4 space-y-3 text-sm">
+       <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+  <p class="font-bold text-gray-800">09:00 - 12:00</p>
+  <p>เว็บเทคโนโลยี (Web Technology)</p>
+  <p class="text-gray-700">รหัสวิชา: 10301231</p>
+  <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+</div>
+      <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+        <p class="font-bold">13:00 - 14:00</p>
+        <p>โครงสร้างข้อมูลและอัลกอริทึม 
+            (Data Structure and Algorithm)</p>
+        <p class="text-gray-600">รหัสวิชา: 10301222</p>
+        <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+    </div>
+    <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+        <p class="font-bold">15:00 - 17:00</p>
+        <p>ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม
+            English for Science and Innovation</p>
+        <p class="text-gray-600">รหัสวิชา: 10700313</p>
+        <p class="text-gray-600 text-sm">ศร306</p>
+    </div>
+    </div>
+  </details>
+
+
+  <!-- Tuesday -->
+  <details class="border border-teal-500 rounded-xl shadow p-4 bg-white open:ring-2 open:ring-teal-300 transition-all">
+    <summary class="cursor-pointer font-bold text-lg text-green-600">
+      วันอังคาร (Tuesday)
+    </summary>
+    <div class="mt-4 space-y-3 text-sm">
+      <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+        <p class="font-bold">08:00 - 10:00</p>
+        <p>เว็บเทคโนโลยี (Web Technology)</p>
+        <p class="text-gray-700">รหัสวิชา: 10301231</p>
+        <p class="text-gray-600">ศร306</p>
+      </div>
+      <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+        <p class="font-semibold">12:30 - 14:00</p>
+        <p>วิศวกรรมซอฟต์แวร์
+            (Software Engineering)</p>
+        <p class="text-gray-700">รหัสวิชา: 10301225</p>
+        <p class="text-gray-600">Lab คอม3-4</p>
+      </div>
+      <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+        <p class="font-bold">15:00 - 16:30</p>
+        <p>คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์
+            (Mathematics for Computer Science)</p>
+        <p class="text-gray-700">รหัสวิชา:10301231</p>
+        <p class="text-gray-600"> 1, 3203</p>
+      </div>
+    </div>
+  </details>
+
+
+  <!-- Wednesday -->
+  <details class="border border-teal-500 rounded-xl shadow p-4 bg-white open:ring-2 open:ring-teal-300 transition-all">
+  <summary class="cursor-pointer font-bold text-lg text-green-600">
+    วันพุธ (Wednesday)
+  </summary>
+  <div class="mt-4 space-y-3 text-sm">
+   <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+        <p class="font-bold">9:00 - 12:00</p>
+        <p>วิศวกรรมซอฟต์แวร์
+            (Software Engineering)</p>
+        <p class="text-gray-700">รหัสวิชา: 10301225</p>
+        <p class="text-gray-600">1, 3203</p>
+      </div>
+  </div>
+</details>
+
+
+  <!-- Thursday -->
+  <details class="border border-teal-500 rounded-xl shadow p-4 bg-white open:ring-2 open:ring-teal-300 transition-all">
+  <summary class="cursor-pointer font-bold text-lg text-green-600">
+    วันพฤหัสบดี (Thursday)
+  </summary>
+  <div class="mt-4 space-y-3 text-sm">
+    <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+        <p class="font-bold">9:00 - 12:00</p>
+       <p>โครงสร้างข้อมูลและอัลกอริทึม 
+            (Data Structure and Algorithm)</p>
+        <p class="text-gray-600">รหัสวิชา: 10301222</p>
+        <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+        </div>
+    <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+        <p class="font-bold">13:00 - 15:00</p>
+       <p>ฐานข้อมูลโครงสร้างเชิงสัมพันธ์
+            (Structure Relational Database)</p>
+        <p class="text-gray-600">รหัสวิชา: 10301223</p>
+        <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+    </div>
+    <div class="mt-4 space-y-3 text-sm">
+    <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+      <p class="font-bold">15:00 - 17:00</p>
+        <p>ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม
+            English for Science and Innovation</p>
+        <p class="text-gray-600">รหัสวิชา: 10700313</p>
+        <p class="text-gray-600 text-sm">ศร306</p>
+    </div>
+  </div>
+</details>
+
+  <!-- Friday -->
+  <details class="border border-teal-500 rounded-xl shadow p-4 bg-white open:ring-2 open:ring-teal-300 transition-all">
+  <summary class="cursor-pointer font-bold text-lg text-green-600">
+    วันศุกร์ (Friday)
+  </summary>
+  <div class="mt-4 space-y-3 text-sm">
+    <div class="border border-gray-300 rounded-lg p-2 bg-yellow-100">
+      <p class="font-bold">8:30 - 10:00</p>
+         <p>คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์
+            (Mathematics for Computer Science)</p>
+        <p class="text-gray-700">รหัสวิชา:10301211</p>
+        <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+    </div>
+    <div class="mt-4 space-y-3 text-sm">
+    <div class="border border-gray-300 rounded-lg p-2 bg-teal-100">
+        <p class="font-bold">15:00 - 16:00</p>
+     <p>ฐานข้อมูลโครงสร้างเชิงสัมพันธ์
+            (Structure Relational Database)</p>
+        <p class="text-gray-600">รหัสวิชา: 10301223</p>
+        <p class="text-gray-600 text-sm">Lab คอม3-4</p>
+    </div>
+  </div>
+</details>
+</div>
   <!--ตารางสอบ-->
   <h1 class="text-center text-red-600">*ข้อมูลที่ปรากฎอยู่ในตารางเรียนประกอบด้วย รหัสวิชา
     (จำนวนหน่วยกิต) กลุ่ม, ห้องเรียนและอาคาร ตามลำดับ
